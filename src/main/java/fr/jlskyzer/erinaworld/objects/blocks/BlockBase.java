@@ -27,4 +27,15 @@ public class BlockBase extends Block implements IHasModel {
         // Creation de la methode de creation d'item
         Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
     }
+
+    /* 
+    @Override
+	public List<ItemStack> getDrops(IBlockAccess world, BlockPos pos, IBlockState state, int fortune) 
+	{
+		List<ItemStack> list = new ArrayList<ItemStack>();
+		list.add(new ItemStack(ItemInit.SLIMY_INGOT));
+		list.add(new ItemStack(ItemInit.FUSIONITE_INGOT));
+		return list;
+	}
+    */
 }
