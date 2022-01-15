@@ -1,14 +1,17 @@
 package fr.jlskyzer.erinaworld.util.handlers;
 
+import fr.jlskyzer.erinaworld.init.BiomeInit;
 import fr.jlskyzer.erinaworld.init.BlockInit;
 import fr.jlskyzer.erinaworld.init.ItemInit;
 import fr.jlskyzer.erinaworld.util.IHasModel;
 import fr.jlskyzer.erinaworld.world.gen.WorldGenCustomOres;
+import fr.jlskyzer.erinaworld.world.gen.WorldGenCustomTrees;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
@@ -47,7 +50,16 @@ public class RegistryHandler {
     }
 
     public static void otherRegistries(){
-        GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 1);
+
+
+    }
+
+    public static void preInitRegistries(FMLPreInitializationEvent event)
+    {
+        GameRegistry.registerWorldGenerator(new WorldGenCustomOres(), 0);
+        GameRegistry.registerWorldGenerator(new WorldGenCustomTrees(), 0);
+
+        BiomeInit.registerBiomes();
     }
 
 }
