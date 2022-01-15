@@ -1,0 +1,9 @@
+{
+  "variants":
+  {
+    "axis=y":  { "model": "erinaworld:copper_log" },
+    "axis=z":   { "model": "erinaworld:copper_log", "x": 90 },
+    "axis=x":   { "model": "erinaworld:copper_log", "x": 90, "y": 90 },
+    "axis=none": { "model": "erinaworld:copper_log" }
+  }
+}

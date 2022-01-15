@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "check_decay=true,decayable=true": { "model": "erinaworld:copper_leaves" },
+    "check_decay=true,decayable=false": { "model": "erinaworld:copper_leaves" },
+    "check_decay=false,decayable=true": { "model": "erinaworld:copper_leaves" },
+    "check_decay=false,decayable=false": { "model": "erinaworld:copper_leaves" }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "erinaworld:blocks/copper_log_top",
+    "up": "erinaworld:blocks/copper_log_top",
+    "east": "erinaworld:blocks/copper_log_side",
+    "north": "erinaworld:blocks/copper_log_side",
+    "south": "erinaworld:blocks/copper_log_side",
+    "west": "erinaworld:blocks/copper_log_side",
+    "particle": "erinaworld:blocks/copper_log_top"
+  }
+}

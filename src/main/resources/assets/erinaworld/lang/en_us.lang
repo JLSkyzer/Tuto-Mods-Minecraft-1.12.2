@@ -1,22 +1,27 @@
-item.ingot_copper.name=Copper Ingot
-item.tutorial_ingot.name=Tutorial Ingot
+item.ingot_copper.name=§6Copper Ingot
+item.tutorial_ingot.name=§6Tutorial Ingot
 
-item.copper_sword.name=Copper Sword
-item.copper_pickaxe.name=Copper Pickaxe
-item.copper_axe.name=Copper Axe
-item.copper_shovel.name=Copper Shovel
-item.copper_hoe.name=Copper Hoe
+item.copper_sword.name=§6Copper Sword
+item.copper_pickaxe.name=§6Copper Pickaxe
+item.copper_axe.name=§6Copper Axe
+item.copper_shovel.name=§6Copper Shovel
+item.copper_hoe.name=§6Copper Hoe
 
-item.copper_helmet.name=Copper Helmet
-item.copper_chestplate.name=Copper Chestplate
-item.copper_leggings.name=Copper Leggings
-item.copper_boots.name=Copper Boots
+item.copper_helmet.name=§6Copper Helmet
+item.copper_chestplate.name=§6Copper Chestplate
+item.copper_leggings.name=§6Copper Leggings
+item.copper_boots.name=§6Copper Boots
 
-itemGroup.tutorialtab=Tutorial Mod
-itemGroup.secondtutorialtab=Second Tutorial Tab
+itemGroup.tutorialtab=§fTutorial Mod
+itemGroup.secondtutorialtab=§fSecond Tutorial Tab
 
-tile.block_copper.name=Copper Block
+tile.block_copper.name=§6Copper Block
 tile.ore_overworld_tutorial.name=Tutorial Ore
 tile.ore_nether_tutorial.name=Nether Tutorial Ore
 tile.ore_end_tutorial.name=End Tutorial Ore
-tile.ore_overworld_copper.name=Copper Ore
+tile.ore_overworld_copper.name=§6Copper Ore
+
+tile.copper_planks.name=§6Copper Planks
+tile.copper_log.name=§6Copper Log
+tile.copper_leaves.name=§6Copper Leaves
+tile.copper_sapling.name=§6Copper Sapling

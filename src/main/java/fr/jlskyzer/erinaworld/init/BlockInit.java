@@ -19,4 +19,9 @@ public class BlockInit {
     public static final Block ORE_OVERWORLD_TUTORIAL = new BlockBase("ore_overworld_tutorial", Material.IRON);
     public static final Block ORE_NETHER_TUTORIAL = new BlockBase("ore_nether_tutorial", Material.IRON);
 
+    public static final Block COPPER_PLANKS = new BlockBase("copper_planks", Material.WOOD);
+    public static final Block COPPER_LOG = new BlockBase("copper_log", Material.WOOD);
+    public static final Block COPPER_LEAVES = new BlockBase("copper_leaves", Material.LEAVES);
+    public static final Block COPPER_SAPLINGS = new BlockBase("copper_sapling", Material.PLANTS);
+
 }
